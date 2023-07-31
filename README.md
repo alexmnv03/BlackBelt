@@ -3,4 +3,4 @@
 ## Курс черный пояс по Java
 
 
-feature/core-comparator
+feature/gen-game
