@@ -32,6 +32,9 @@ public class ArrayDequeTest {
         System.out.println(deque.pollFirst());
         System.out.println(deque);
 
+        System.out.println(deque.pop());// возвращает элемент с вершины и удаляет его
+        System.out.println(deque);
+
     }
     
 }
