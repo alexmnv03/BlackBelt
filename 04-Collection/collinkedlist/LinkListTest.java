@@ -23,13 +23,13 @@ public class LinkListTest {
         System.out.println(linkedList);
         System.out.println("two = " + linkedList.get(2));
         StudentSmall student6 = new StudentSmall("s6", 2);
-        StudentSmall student7 = new StudentSmall("s7", 3);        
+        StudentSmall student7 = new StudentSmall("s7", 3);
         linkedList.add(student6);
-        linkedList.add(0, student7);        
+        linkedList.add(0, student7);
         System.out.println(linkedList);
         linkedList.remove(6);
         System.out.println(linkedList);
-        
+
     }
-    
+
 }
