@@ -48,7 +48,7 @@ public class Car {
     public class Engine{
         int hoursePower;
         // private int power;
-        public static int count=4;//Error
+        public final static int count=4;//Error
         public final static int count2=4;
 
         public Engine(int hoursePower) {
