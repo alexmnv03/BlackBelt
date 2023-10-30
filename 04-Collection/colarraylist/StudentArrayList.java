@@ -2,23 +2,24 @@ package colarraylist;
 
 import java.util.ArrayList;
 import java.util.List;
+import model.Student;
 
 public class StudentArrayList {
 
     public static void main(String[] args) {
-        Studentt student1 = new Studentt("s1", 'm', 19, 1, 10.5);
-        Studentt student2 = new Studentt("s2", 'm', 19, 2, 15.5);
-        Studentt student3 = new Studentt("s3", 'm', 19, 3, 19.5);
-        Studentt student4 = new Studentt("s4", 'w', 19, 1, 17.5);
-        Studentt student5 = new Studentt("s5", 'w', 19, 2, 14.5);
-        List<Studentt> list = new ArrayList<>();
+        Student student1 = new Student("s1", 'm', 19, 1, 10.5);
+        Student student2 = new Student("s2", 'm', 19, 2, 15.5);
+        Student student3 = new Student("s3", 'm', 19, 3, 19.5);
+        Student student4 = new Student("s4", 'w', 19, 1, 17.5);
+        Student student5 = new Student("s5", 'w', 19, 2, 14.5);
+        List<Student> list = new ArrayList<>();
         list.add(student1);
         list.add(student2);
         list.add(student3);
         list.add(student4);
         list.add(student5);
         System.out.println(list);
-        Studentt student6 = new Studentt("s5", 'w', 19, 2, 14.5);
+        Student student6 = new Student("s5", 'w', 19, 2, 14.5);
         list.remove(student6);
         System.out.println(list);
         // Тут мы видим что s5 не удалился, т.к. это разные объекты, и чтобы удалить его нам надо переопределить 
