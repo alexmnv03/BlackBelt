@@ -1,4 +1,4 @@
-package ForEach;
+package foreach;
 
 public class Utils {
     public static void myMetod(int a) {
